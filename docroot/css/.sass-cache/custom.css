@@ -1,0 +1,739 @@
+/* ---------- Base styles ---------- */
+.aui {
+  /* ---------- Dockbar ---------- */
+  /* ---------- Main navigation ---------- */
+  /* ---------- Breadcrumbs ---------- */
+  /* ---------- Portlet wrapper and icons ---------- */
+  /* ---------- Set password reminder portlet ---------- */
+  /* ---------- Staging bar ---------- */
+  /* ---------- Footer ---------- */
+  /* ---------- Hudcrumbs ---------- */
+  /* ---------- Miscellaneous ---------- */
+  /* ---------- Extras ---------- */
+  /* ---------- IE8 ---------- */ }
+  .aui body.background {
+    background: url(@theme_image_path@/3l/background.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
+  .aui .separator {
+    border-color: #BFBFBF transparent #FFF;
+    border-style: solid;
+    border-width: 1px 0; }
+  .aui #wrapper {
+    position: relative;
+    padding: 2em 0em 0; }
+    .aui #wrapper header#banner {
+      padding: 0;
+      width: 972px;
+      margin: 0 auto; }
+    .aui #wrapper div#content {
+      padding: 0;
+      background: #eeeeee;
+      border-top: 4px solid #e22f3a; }
+      .aui #wrapper div#content .quadro {
+        width: 972px;
+        margin: 0 auto; }
+      .aui #wrapper div#content.home {
+        margin-top: 26em; }
+        .aui #wrapper div#content.home .columns-1 {
+          margin-top: -13em; }
+          .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher {
+            clear: both; }
+            .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container {
+              background: transparent; }
+              .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract {
+                margin-bottom: 2em;
+                background: white;
+                width: 40%;
+                display: inline-block;
+                padding: 3%;
+                box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+                min-height: 20em; }
+                .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract:first-child {
+                  float: left; }
+                .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract:last-child {
+                  float: right; }
+                .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract .imagem a img {
+                  width: 100%; }
+                .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract .imagem a:hover img {
+                  box-shadow: 0 0px 17px #009eff; }
+                .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract .asset-title {
+                  border-bottom: 0px solid #DDD;
+                  margin-right: 0px;
+                  padding-bottom: 0px;
+                  margin-bottom: 0; }
+                  .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract .asset-title a {
+                    color: #818181;
+                    font-weight: 100;
+                    font-size: 1.3em; }
+                    .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract .asset-title a:hover {
+                      text-decoration: none;
+                      color: #0af; }
+                .aui #wrapper div#content.home .columns-1 .portlet-asset-publisher .portlet-borderless-container .asset-abstract .asset-summary {
+                  min-height: 4em; }
+      .aui #wrapper div#content .listagem .portlet {
+        background: transparent; }
+        .aui #wrapper div#content .listagem .portlet .portlet-topper {
+          background: transparent;
+          border-radius: 0;
+          margin-bottom: 3em; }
+          .aui #wrapper div#content .listagem .portlet .portlet-topper .portlet-title {
+            color: #818181;
+            font-weight: 100;
+            font-size: 2.4em;
+            padding-left: 0;
+            border-bottom: 1px dashed #C0C0C0; }
+        .aui #wrapper div#content .listagem .portlet .portlet-content {
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+          border-radius: 0;
+          border: 0px solid #eaeaea;
+          border-top-width: 0;
+          padding: 0px; }
+          .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract {
+            float: left;
+            width: 50%;
+            margin-bottom: 4em; }
+            .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-more {
+              display: none; }
+            .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-title {
+              border-bottom: 0px solid #DDD;
+              margin-right: 0px;
+              padding-bottom: 0px;
+              margin-left: 8.5em; }
+              .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-title img {
+                display: none; }
+              .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-title a {
+                color: #818181;
+                font-weight: 200; }
+                .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-title a:hover {
+                  color: #00aaff; }
+            .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-small-image {
+              float: left;
+              padding-left: 0em;
+              background: white;
+              display: block;
+              height: 12em;
+              width: 12em;
+              border-radius: 6em;
+              margin-right: 1em;
+              margin-top: -4em; }
+              .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-small-image:hover {
+                box-shadow: 0 0px 17px #009eff; }
+              .aui #wrapper div#content .listagem .portlet .portlet-content .asset-abstract .asset-small-image img {
+                background: transparent;
+                margin-top: 0em;
+                border: 5px solid white;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box; }
+      .aui #wrapper div#content .propeietario-contato {
+        border-top: 1px dashed #C0C0C0;
+        padding-top: 4em; }
+      .aui #wrapper div#content #endereco {
+        text-align: center;
+        margin: 6em 0 6em; }
+      .aui #wrapper div#content a.proprietario {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+        text-decoration: none;
+        background: white;
+        border-radius: 6em;
+        padding: 2em 4em; }
+        .aui #wrapper div#content a.proprietario .icon-user {
+          font-size: 8em;
+          display: block;
+          float: left;
+          margin-right: 0.1em; }
+        .aui #wrapper div#content a.proprietario h1 {
+          font-size: 1.8em;
+          font-weight: 200; }
+        .aui #wrapper div#content a.proprietario:hover .proprietario {
+          text-decoration: none;
+          background: #bbd7df; }
+      .aui #wrapper div#content .empreendimento-modelo h1 {
+        font-weight: 100;
+        margin-bottom: 0.5em; }
+      .aui #wrapper div#content .empreendimento-modelo p {
+        font-size: 1.3em;
+        line-height: 1.4em;
+        margin-bottom: 2em; }
+      .aui #wrapper div#content .empreendimento-modelo .apresentacao .imagem {
+        padding-left: 3em; }
+        .aui #wrapper div#content .empreendimento-modelo .apresentacao .imagem figure {
+          height: 21em;
+          border: 2em solid white;
+          box-shadow: 0 2px 30px rgba(0, 0, 0, 0.4);
+          background-repeat: no-repeat !important;
+          background-size: contain !important;
+          background-color: white !important;
+          background-position: center !important;
+          box-sizing: border-box;
+          margin: 0; }
+        .aui #wrapper div#content .empreendimento-modelo .apresentacao .imagem .carousel {
+          margin: auto;
+          margin-top: 3em;
+          margin-bottom: 24em;
+          box-sizing: border-box;
+          margin-left: 0;
+          margin-right: 0; }
+          .aui #wrapper div#content .empreendimento-modelo .apresentacao .imagem .carousel #carrossel-topo {
+            height: 25em;
+            border: 2em solid white;
+            margin-top: 3em;
+            box-shadow: 0 2px 30px rgba(0, 0, 0, 0.4); }
+          .aui #wrapper div#content .empreendimento-modelo .apresentacao .imagem .carousel .carousel-item {
+            height: 21em;
+            width: 87%;
+            background-repeat: no-repeat !important;
+            background-size: cover !important; }
+          .aui #wrapper div#content .empreendimento-modelo .apresentacao .imagem .carousel menu {
+            display: none; }
+      .aui #wrapper div#content .empreendimento-modelo .localizacao iframe {
+        border: 1.8em solid white !important;
+        box-sizing: border-box;
+        height: 180px; }
+      .aui #wrapper div#content .empreendimento-modelo .plantas-humanizadas h1, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais h1, .aui #wrapper div#content .empreendimento-modelo .andamento-obra h1 {
+        margin: 1em 0 0.8em 0;
+        font-weight: 100; }
+      .aui #wrapper div#content .empreendimento-modelo .plantas-humanizadas #galeria-plantas-humanizadas {
+        margin: 0 -1em;
+        position: relative;
+        clear: bolth; }
+        .aui #wrapper div#content .empreendimento-modelo .plantas-humanizadas #galeria-plantas-humanizadas a {
+          width: 12em;
+          height: 12em;
+          display: block;
+          float: left;
+          margin: 0 1.1em 2.2em;
+          border: 1.8em solid white;
+          box-sizing: border-box;
+          background-repeat: no-repeat;
+          background-size: cover !important; }
+      .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra {
+        background: white;
+        height: 10.6em;
+        padding: 1.8em 0.5em; }
+        .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais a, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra a {
+          width: 11.4em;
+          height: 7em;
+          display: block;
+          float: left;
+          margin: 0 1.1em;
+          background-repeat: no-repeat;
+          background-size: cover !important;
+          text-align: center; }
+          .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais a span, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra a span {
+            display: block;
+            margin-top: 7.1em;
+            color: #606060; }
+        .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-prev, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-prev:hover, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-prev:visited, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-prev:active, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-prev, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-prev:hover, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-prev:visited, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-prev:active {
+          display: block;
+          background-color: #ccc;
+          height: 2em;
+          -webkit-border-radius: 2em;
+          -moz-border-radius: 2em;
+          -ms-border-radius: 2em;
+          -o-border-radius: 2em;
+          border-radius: 2em;
+          width: 2em;
+          text-align: center;
+          padding-left: 0.4em;
+          top: 4.5em;
+          left: -1em; }
+        .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-prev:before, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-prev:before {
+          content: '<'; }
+        .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-next:before, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-next:before {
+          content: '>'; }
+        .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-next, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-next:hover, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-next:visited, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-virtuais .slick-next:active, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-next, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-next:hover, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-next:visited, .aui #wrapper div#content .empreendimento-modelo .fotos-virtuais #galeria-fotos-obra .slick-next:active {
+          display: block;
+          background-color: #ccc;
+          height: 2em;
+          -webkit-border-radius: 2em;
+          -moz-border-radius: 2em;
+          -ms-border-radius: 2em;
+          -o-border-radius: 2em;
+          border-radius: 2em;
+          width: 2em;
+          text-align: center;
+          padding-left: 0.45em;
+          top: 4.5em;
+          right: -1em; }
+      .aui #wrapper div#content .andamento-obra {
+        margin-bottom: 2em; }
+        .aui #wrapper div#content .andamento-obra h1 {
+          margin: 1em 0 0.8em 0;
+          font-weight: 100; }
+        .aui #wrapper div#content .andamento-obra h2 {
+          margin: 0.5em 0 0;
+          font-weight: 100;
+          font-size: 1.5em; }
+        .aui #wrapper div#content .andamento-obra .icon-db-state {
+          margin-left: -7px; }
+          .aui #wrapper div#content .andamento-obra .icon-db-state .ano {
+            width: 2.8em;
+            top: -1.1em;
+            left: -1.0em;
+            position: absolute;
+            text-align: center; }
+        .aui #wrapper div#content .andamento-obra .box-progressao {
+          background: #bebebe;
+          height: 2em;
+          width: 100%;
+          margin-top: 3.6em;
+          position: relative; }
+          .aui #wrapper div#content .andamento-obra .box-progressao #progressao {
+            background: #77af7a;
+            height: 2em; }
+          .aui #wrapper div#content .andamento-obra .box-progressao .percent {
+            position: absolute;
+            top: 0.3em;
+            z-index: 1;
+            left: 0.4em;
+            color: white;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+            opacity: 0.8; }
+          .aui #wrapper div#content .andamento-obra .box-progressao.projeto .progressao {
+            background: #a0af77;
+            height: 2em; }
+          .aui #wrapper div#content .andamento-obra .box-progressao.escavacao .progressao {
+            background: #afa977;
+            height: 2em; }
+          .aui #wrapper div#content .andamento-obra .box-progressao.fundacao .progressao {
+            background: #77afa4;
+            height: 2em; }
+          .aui #wrapper div#content .andamento-obra .box-progressao.estrutura .progressao {
+            background: #77a9af;
+            height: 2em; }
+          .aui #wrapper div#content .andamento-obra .box-progressao.instalacoes .progressao {
+            background: #7797af;
+            height: 2em; }
+          .aui #wrapper div#content .andamento-obra .box-progressao.acabamento .progressao {
+            background: #7786af;
+            height: 2em; }
+        .aui #wrapper div#content .andamento-obra .projeto, .aui #wrapper div#content .andamento-obra .escavacao, .aui #wrapper div#content .andamento-obra .fundacao, .aui #wrapper div#content .andamento-obra .estrutura, .aui #wrapper div#content .andamento-obra .instalacoes, .aui #wrapper div#content .andamento-obra .acabamento {
+          margin: 0; }
+  .aui #heading h1.site-title {
+    width: 115px !important;
+    float: left !important; }
+    .aui #heading h1.site-title a:hover {
+      text-decoration: none; }
+    .aui #heading h1.site-title .site-name {
+      display: none; }
+  .aui #skip-to-content:focus {
+    clip: rect(auto auto auto auto);
+    margin-top: 35px;
+    right: 5px;
+    z-index: 200; }
+  .aui #sign-in {
+    background: url(@theme_image_path@/common/key.png) no-repeat 3px 50%;
+    font-weight: bold;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    right: 0;
+    top: -1.2em; }
+  .aui .redirected-to-message {
+    margin-right: 10px; }
+    .aui .redirected-to-message a {
+      background: #ECFBFF;
+      border: 1px solid #ADE5FA;
+      color: #8D8D8D;
+      padding: 5px; }
+  .aui .site-navigation {
+    margin-bottom: 6px; }
+  .aui .taglib-portal-message {
+    margin-bottom: 0; }
+  .aui .estilo-cont h1 {
+    margin: 1em 0 0.3em 0;
+    font-weight: 100; }
+  .aui .estilo-cont .fieldset-legend .legend {
+    margin: 1em 0 0.3em 0;
+    font-weight: 100; }
+  .aui .estilo-cont img.layout {
+    width: 100%;
+    border: 2em solid white;
+    box-sizing: border-box;
+    margin-top: 1em; }
+  .aui .estilo-cont .control-group {
+    margin-bottom: 6px; }
+    .aui .estilo-cont .control-group input[type="text"], .aui .estilo-cont .control-group select, .aui .estilo-cont .control-group textarea {
+      width: 42.5em; }
+  .aui .taglib-header {
+    border-bottom: 0px solid transparent;
+    margin-bottom: 0em; }
+    .aui .taglib-header h3 span {
+      display: none; }
+    .aui .taglib-header .previous-level {
+      float: none;
+      line-height: 2em; }
+  .aui .dockbar.navbar .nav li.dropdown.active .dropdown-toggle {
+    background-color: transparent; }
+    .aui .dockbar.navbar .nav li.dropdown.active .dropdown-toggle:hover {
+      color: #FFF; }
+  .aui .dockbar.navbar .nav li.dropdown.staging-toggle .dropdown-menu {
+    background-color: #55B8EC; }
+  .aui .dockbar.navbar .nav > li > a {
+    margin: 0 5px 0 0;
+    padding: 6px 10px; }
+    .aui .dockbar.navbar .nav > li > a:hover {
+      background-color: #2FA4F5; }
+  .aui .dockbar .info-button {
+    top: 9px; }
+    .aui .dockbar .info-button a {
+      margin-top: -4px; }
+      .aui .dockbar .info-button a:hover {
+        color: #FFF; }
+  .aui .dockbar .staging-bar .staging-toggle {
+    color: #FFF; }
+    .aui .dockbar .staging-bar .staging-toggle li a {
+      color: #FFF;
+      font-weight: 300;
+      text-decoration: none; }
+    .aui .dockbar .staging-bar .staging-toggle .btn-link {
+      color: #FFF;
+      font-size: 12px; }
+  .aui .dockbar .page-customization-bar .btn {
+    border-color: transparent; }
+    .aui .dockbar .page-customization-bar .btn:hover, .aui .dockbar .page-customization-bar .btn:focus {
+      background: transparent;
+      text-decoration: underline; }
+  .aui .dockbar .navbar-inner, .aui .dockbar-split .dockbar .navbar-inner {
+    background-color: #118ade;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #118ade), color-stop(47%, #118ade), color-stop(100%, #1273c7));
+    background-image: -webkit-linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%);
+    background-image: -moz-linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%);
+    background-image: -o-linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%);
+    background-image: linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%); }
+    .aui .dockbar .navbar-inner .nav > li, .aui .dockbar-split .dockbar .navbar-inner .nav > li {
+      background-color: #118ade;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #118ade), color-stop(47%, #118ade), color-stop(100%, #1273c7));
+      background-image: -webkit-linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%);
+      background-image: -moz-linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%);
+      background-image: -o-linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%);
+      background-image: linear-gradient(#118ade 0%, #118ade 47%, #1273c7 100%); }
+  .aui .dockbar-split .dockbar .info-button {
+    top: 9px; }
+  .aui .dockbar-split .dockbar .navbar-inner .nav-account-controls {
+    border-top: 1px solid #00AEFF; }
+    .aui .dockbar-split .dockbar .navbar-inner .nav-account-controls.nav-account-controls-notice {
+      margin-top: 10px;
+      top: 50px; }
+  .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls {
+    background: transparent;
+    border-top-width: 0; }
+    .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls.nav-add-controls-notice {
+      top: 70px; }
+    .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li {
+      background-color: transparent;
+      background-image: none; }
+      .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a {
+        background: #45CBF5;
+        line-height: inherit;
+        padding: 6px 8px; }
+        @media (max-width: 979px) {
+          .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a {
+            background: transparent; } }
+        .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a:hover {
+          background: #5BBAE8; }
+        .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a.toggle-controls-link {
+          background: #92F545; }
+          @media (max-width: 979px) {
+            .aui .dockbar-split .dockbar .navbar-inner .nav-add-controls > li > a.toggle-controls-link {
+              background: transparent; } }
+  .aui .dockbar-split .dockbar .navbar-inner .page-customization-bar {
+    background-color: #6DA4E4;
+    background-color: rgba(109, 168, 228, 0.9);
+    line-height: 20px; }
+  .aui .dockbar-split .dockbar .navbar-inner .page-customization-bar-text {
+    height: 43px; }
+  .aui .dockbar-split .dockbar .navbar-inner .staging-bar {
+    margin: 6px 0; }
+    .aui .dockbar-split .dockbar .navbar-inner .staging-bar > li {
+      background: transparent; }
+  .aui #navigation .add-page-editor input {
+    margin-top: 0; }
+  .aui #navigation .brand {
+    padding: 0;
+    padding-right: 20px;
+    margin-left: 0; }
+    .aui #navigation .brand img {
+      height: 40px;
+      width: auto; }
+  .aui #navigation .nav li.dropdown {
+    display: none; }
+    .aui #navigation .nav li.dropdown > .dropdown-toggle .caret {
+      border-bottom-color: #FFF;
+      border-top-color: #FFF; }
+  .aui #navigation .nav li.open > a {
+    background-color: transparent;
+    background-image: none;
+    color: #FFF; }
+  .aui #navigation .nav li.active > a {
+    background-color: transparent;
+    background-image: none;
+    text-decoration: underline; }
+  .aui #navigation .nav > li > a {
+    padding: 0px 0px 0px; }
+  .aui #navigation .nav .dropdown-menu {
+    background: #00ACFF;
+    border-width: 0;
+    margin: 0;
+    display: none; }
+    .aui #navigation .nav .dropdown-menu:after, .aui #navigation .nav .dropdown-menu:before {
+      border-width: 0; }
+    .aui #navigation .nav .dropdown-menu a {
+      color: #FFF; }
+      .aui #navigation .nav .dropdown-menu a:hover {
+        background: transparent;
+        text-decoration: underline; }
+  .aui #navigation .navbar-inner {
+    background: transparent;
+    border-width: 0;
+    min-height: 36px;
+    padding: 0;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.065); }
+    .aui #navigation .navbar-inner li {
+      width: 221px;
+      font-size: 2em;
+      line-height: 45px; }
+      .aui #navigation .navbar-inner li a {
+        color: #FFF;
+        font-weight: 100;
+        letter-spacing: 3px; }
+        .aui #navigation .navbar-inner li a:hover {
+          background-image: none !important;
+          background: transparent !important;
+          text-decoration: none; }
+          .aui #navigation .navbar-inner li a:hover span {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.67); }
+      .aui #navigation .navbar-inner li.active a {
+        background-color: transparent !important;
+        background-image: none !important;
+        text-decoration: none; }
+        .aui #navigation .navbar-inner li.active a span {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.67); }
+  .aui .modify-pages .delete-tab {
+    background: #555;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    padding: 4px;
+    right: -10px;
+    top: 0;
+    z-index: 300; }
+  .aui .breadcrumb {
+    background-color: #FAFAFA; }
+  .aui #breadcrumbs {
+    margin-bottom: 45px; }
+    .aui #breadcrumbs .breadcrumb {
+      margin-bottom: 0; }
+  .aui .portlet-boundary {
+    clear: both; }
+    .aui .portlet-boundary .portlet-borderless-container {
+      background: transparent;
+      margin-bottom: 2em; }
+  .aui .portlet-content, .aui .portlet-minimized .portlet-content-container {
+    border: 1px solid #EAEAEA;
+    border-top-width: 0;
+    padding: 12px 10px 10px; }
+  .aui .portlet-topper {
+    background: #D3D3D3;
+    color: #FFF;
+    padding: 0; }
+    .aui .portlet-topper .portlet-title {
+      font-size: 1em;
+      font-weight: normal;
+      line-height: 2.2;
+      margin: 0; }
+      .aui .portlet-topper .portlet-title i, .aui .portlet-topper .portlet-title span img {
+        display: none; }
+    .aui .portlet-topper .portlet-topper-toolbar {
+      font-size: 0.8em;
+      margin: -10px 0 0;
+      padding: 0;
+      right: 10px;
+      top: 50%; }
+  .aui .lfr-configurator-visibility .portlet-topper {
+    background-color: #A9A9A9; }
+  .aui .portlet-borderless-bar .portlet-options .dropdown-toggle {
+    background-image: url(../images/portlet/options_borderless.png); }
+  .aui .signed-in.controls-visible .portlet-title {
+    padding-right: 80px; }
+  .aui .portlet-asset-publisher .asset-content, .aui .portlet-asset-publisher .asset-summary, .aui .portlet-asset-publisher .asset-title, .aui .portlet-asset-publisher .header-title, .aui .portlet-asset-publisher li.title-list, .aui .portlet-blogs .entry-body, .aui .portlet-blogs .entry-title, .aui .portlet-blogs .header-title, .aui .portlet-journal-content .journal-content-article, .aui .portlet-message-boards .header-title, .aui .portlet-message-boards .thread-body {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto; }
+  .aui .portlet-icons {
+    float: none; }
+  .aui .page-maximized .portlet-icons {
+    font-size: 11px; }
+  .aui .dropdown-menu > li.portlet-close > a {
+    color: #C00;
+    font-weight: bold; }
+    .aui .dropdown-menu > li.portlet-close > a:focus, .aui .dropdown-menu > li.portlet-close > a:hover {
+      background-color: #C00;
+      background-image: none;
+      color: #FFF; }
+  .aui .update-reminder-query .control-group {
+    max-width: 350px; }
+  .aui .update-reminder-query .reminder-query-answer {
+    height: 30px;
+    width: 100%; }
+  .aui .update-reminder-query .reminder-query-question {
+    width: 100%; }
+  .aui .navbar-inner .nav.staging-bar {
+    border-top-width: 0;
+    position: static; }
+    .aui .navbar-inner .nav.staging-bar li .page-variations {
+      display: inline-block;
+      margin-left: 8px; }
+      .aui .navbar-inner .nav.staging-bar li .page-variations a {
+        text-decoration: none; }
+    .aui .navbar-inner .nav.staging-bar li.dropdown {
+      position: static; }
+  .aui .portlet-staging-bar .row-fluid .layout-revision-info .layout-revision-version label {
+    color: #B6DDF5; }
+  .aui .portlet-staging-bar .label-submit {
+    background-color: #469DE3; }
+  .aui .portlet-staging-bar .layout-branch-selector .icon-caret-down, .aui .portlet-staging-bar .layout-set-branch-selector .icon-caret-down {
+    background-color: #469DE3; }
+  .aui .portlet-staging-bar .page-variations-options .lfr-icon-menu, .aui .portlet-staging-bar .site-pages-variation-options .lfr-icon-menu {
+    background-color: #50AFE9; }
+    .aui .portlet-staging-bar .page-variations-options .lfr-icon-menu .icon-globe, .aui .portlet-staging-bar .page-variations-options .lfr-icon-menu .icon-file, .aui .portlet-staging-bar .site-pages-variation-options .lfr-icon-menu .icon-globe, .aui .portlet-staging-bar .site-pages-variation-options .lfr-icon-menu .icon-file {
+      background-color: #469DE3; }
+  .aui #footer {
+    background: url(@theme_image_path@/3l/background-desfoque.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 12em 0;
+    margin-top: -1.5em; }
+    .aui #footer .marca-fim {
+      background: white;
+      width: 20em;
+      height: 20em;
+      border-radius: 10em;
+      text-align: center;
+      margin: 0em auto; }
+      .aui #footer .marca-fim img {
+        width: 12em;
+        margin-top: 3em; }
+  .aui .lfr-hudcrumbs {
+    position: fixed;
+    top: 0;
+    z-index: 300; }
+    .aui .lfr-hudcrumbs .breadcrumb {
+      background: #414445;
+      background: rgba(0, 0, 0, 0.8); }
+      .aui .lfr-hudcrumbs .breadcrumb li a, .aui .lfr-hudcrumbs .breadcrumb li span {
+        color: #FFF; }
+  .aui .lfr-panel-container {
+    background-color: transparent; }
+  .aui .lfr-portlet-title-editable-content .field {
+    display: inline;
+    float: none; }
+  .aui .portlet-journal-content .lfr-icon-actions {
+    margin-bottom: 3px; }
+  .aui .update-reminder-query .reminder-query-answer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .aui .modify-pages .delete-tab {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-shadow: none;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease; }
+    .aui .modify-pages .delete-tab:hover {
+      -webkit-box-shadow: 0 1px 1px -1px black;
+      -moz-box-shadow: 0 1px 1px -1px black;
+      box-shadow: 0 1px 1px -1px black; }
+  .aui .portlet-borderless-bar, .aui .portlet-content .lfr-icon-actions {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 1px 3px black;
+    -moz-box-shadow: inset 0 1px 3px black;
+    box-shadow: inset 0 1px 3px black; }
+  .aui .portlet-content, .aui .portlet-minimized .portlet-content-container {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px; }
+  .aui .portlet-minimized .portlet-content {
+    border-width: 0; }
+  .aui .portlet-minimized .portlet-topper {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; }
+  .aui .portlet-nested-portlets .portlet-body .portlet, .aui .portlet-nested-portlets .portlet-body .portlet-borderless-container {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .aui .portlet-topper {
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0; }
+  .aui .dockbar .staging-bar .staging-toggle > a {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; }
+  .aui .dockbar-split .dockbar .navbar-inner {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none; }
+    @media (max-width: 979px) {
+      .aui .dockbar-split .dockbar .navbar-inner {
+        background-color: #118ade;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #118ade), color-stop(100%, #1273c7));
+        background-image: -webkit-linear-gradient(#118ade, #1273c7);
+        background-image: -moz-linear-gradient(#118ade, #1273c7);
+        background-image: -o-linear-gradient(#118ade, #1273c7);
+        background-image: linear-gradient(#118ade, #1273c7); } }
+    .aui .dockbar-split .dockbar .navbar-inner .nav li.dropdown.open > .dropdown-toggle {
+      background-color: #0ea6f9;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0ea6f9), color-stop(100%, #0993dd));
+      background-image: -webkit-linear-gradient(#0ea6f9, #0993dd);
+      background-image: -moz-linear-gradient(#0ea6f9, #0993dd);
+      background-image: -o-linear-gradient(#0ea6f9, #0993dd);
+      background-image: linear-gradient(#0ea6f9, #0993dd);
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+    .aui .dockbar-split .dockbar .navbar-inner .nav li.dropdown.active > .staging-link.dropdown-toggle {
+      background-color: #55B8EC;
+      background-image: none; }
+  .aui .lfr-hudcrumbs ul {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0; }
+  .aui .lfr-hudcrumbs .breadcrumb li a, .aui .lfr-hudcrumbs .breadcrumb li span {
+    text-shadow: -1px -1px black; }
+  .aui.ie8 .dockbar-split .dockbar .navbar-inner .info-button a {
+    margin-top: -2px; }
+
